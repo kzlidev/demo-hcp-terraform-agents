@@ -12,6 +12,7 @@ Note: This tutorial assumes that you have already configured VCS integration wit
 ```bash
 brew install kind
 kind create cluster --name terraform-learn
+kubectl cluster-info --context kind-terraform-learn
 ```
 
 2. Generate the `.tfvars` file 
